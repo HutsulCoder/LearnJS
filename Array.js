@@ -26,4 +26,8 @@ const arrayToStringSecond = flowers.join( - );
 
 // ГЕНЕРАТОР ВИПАДКОВИХ ЧИСЕЛ ТА СЛІВ
 
-var randomBodyPart
+const randomBodyPart = ["Head", "sholders", "knees"];
+const randomWord = ["Nasty", "big", "Huge"];
+const randomParts = randomBodyPart[Math.floor(Math.random() * 2)];
+const randomWords = randomWord[Math.floor(Math.random() * 3)];
+const generator = "Your" + randomParts + "Like a" + randomWords;
