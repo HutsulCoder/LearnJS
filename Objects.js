@@ -43,4 +43,26 @@ let daryna = { name: "Daryna", age: 34, passwords: ["solovei", 843] };
 
 let friends = [bohdan, christina, daryna]; // СТВОРЮЄМО МАСИВ З ДРУЗІВ
 
-friends[1].passwords[1]
+friends[1].passwords[1];
+
+// ВЕДЕННЯ ПЕРСОНАЛЬНОЇ БУХГАЛТЕРІЇ
+
+var owedMoney = {}; // СТВОРЕННЯ БУХГАЛТЕРІЇ
+owedMoney["Bohdan"] = 10; // додавання учасників
+owedMoney["Volodya"] = 5;
+owedMoney["bohdan"] += 15; // додавання значення
+
+// ВЕДЕННЯ ДОМАШНЬОЇ БУХГАЛТЕРІЇ
+
+let homeAccounting = {
+    "Products": {
+        "vegetables": 0,
+        "meet": 0
+    },
+    "clothes": {
+        "main": 0
+    },
+    "Untility payments": {
+    }
+};
+let 
