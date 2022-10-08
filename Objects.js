@@ -65,4 +65,5 @@ let homeAccounting = {
     "Untility payments": {
     }
 };
-let 
+
+homeAccounting.income
