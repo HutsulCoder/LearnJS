@@ -75,4 +75,6 @@ var myCrazyObject = {
     "some array": [7, 9, {purpose: "confusion", number: 123}, 3.3],
     "random animal": "Banana shark"
 };
-myCrazyObject["some array"][2]['number']
+myCrazyObject["some array"][2]['number'];
+
+let findKey = myCrazyObject["some array"][2]["number"];
