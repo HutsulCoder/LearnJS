@@ -12,3 +12,6 @@ if (name.length >= 4) {
 } else {
     console.log("Your name is very long");
 }
+
+// IF...ELSE твердження, послідовне з'єднання
+
